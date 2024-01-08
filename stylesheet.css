@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+/* menu */
+.menu{
+    height: 75vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: aqua;
+}
+.cardContainer{
+    margin-left: 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+.card {
+    width: 200px;
+    height: 250px;
+    background: #f8f8fa; 
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+   }
+
+.card:hover{
+    box-shadow: 5px 5px 10px rgba(47, 47, 47, 0.37);
+   }
+.pic{
+    height: 180px;
+    overflow: hidden;
+}
+.name{
+    font-family:'Times New Roman', Times, serif ;
+}
+.price{
+    position: absolute;
+    color: green;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+   /* footer */
+footer {
+  width: 100%;
+}
+.footerContainer{
+    background-color: #111;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    padding: 10px;
+    background-color: white;
+    color: #111;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a:hover{
+    background-color: #111;
+    color: white;
+    transition: 0.5s;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    color: #e7e7e7;
+}
+.copyright{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
