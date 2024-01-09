@@ -6,7 +6,7 @@ body{
     height: 75vh;
     width: 100%;
     overflow: hidden;
-    background-color: white;
+    background-color: #ffffff;
 }
 .cardContainer{
     margin-left: 40px;
@@ -17,8 +17,8 @@ body{
 .card {
     width: 200px;
     height: 250px;
-    background: #f8f8fa; 
-    border: 1px solid #eaeaea;
+    background: #ffffff; 
+    border: 1.5px solid #eaeaea;
     border-radius: 10px;
     justify-content: center;
     margin-bottom: 20px;
