@@ -6,7 +6,7 @@ body{
     height: 75vh;
     width: 100%;
     overflow: hidden;
-    background-color: aqua;
+    background-color: white;
 }
 .cardContainer{
     margin-left: 40px;
