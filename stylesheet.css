@@ -38,8 +38,14 @@ body{
 .price{
     position: absolute;
     color: green;
-    margin-top: 5px;
     margin-left: 3px;
+    margin-top: 5px;
+}
+.price2{
+    position: absolute;
+    color: green;
+    margin-left: 3px;
+    margin-top: 15px;
 }
    /* footer */
 footer {
