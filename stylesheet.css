@@ -1,12 +1,79 @@
 body{
     margin: 0;
 }
+
+/* header */
+
+header {
+    width: 100%;
+}
+.headerContainer {
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    display: flex;
+    padding: 20px 50px;
+}
+.Logo {
+    margin: 20px 20px 20px 170px;
+    color:#111;
+    align-items: center;
+}
+.Logo img {
+    width: 300px;
+}
+.navContainer {
+    margin: 60px 200px 60px 170px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+}
+#menunav{
+    background: rgb(230, 16, 9);
+    border-radius: 50px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+#aboutnav{
+    margin-left: 100px;
+    background: rgb(230, 16, 9);
+    border-radius: 50px;
+    width: 120px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+#menunav:hover{
+    background:rgb(150, 12, 19);
+}
+#aboutnav:hover{
+    background:rgb(150, 12, 19);
+}
+
 /* menu */
-.menu{
+#menu{
     height: 75vh;
     width: 100%;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: rgb(202, 20, 13);
 }
 .cardContainer{
     margin-left: 40px;
@@ -17,10 +84,10 @@ body{
 .card {
     width: 200px;
     height: 250px;
-    background: #ffffff; 
-    border: 1.5px solid #eaeaea;
+    background: #f8f8fa; 
+    border: 1px solid #eaeaea;
     border-radius: 10px;
-    justify-content: center;
+    margin-left: 10px;
     margin-bottom: 20px;
     overflow: hidden;
    }
@@ -47,6 +114,35 @@ body{
     margin-left: 3px;
     margin-top: 15px;
 }
+
+#bttcontainer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+}
+#back2Top{
+        background: rgb(230, 16, 9);
+        border-radius: 50px;
+        width: 120px;
+        height: 50px;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        transition: ease-in-out 0.5s;
+}
+#back2Top:hover{
+    background:rgb(150, 12, 19);
+}
+
+
    /* footer */
 footer {
   width: 100%;
