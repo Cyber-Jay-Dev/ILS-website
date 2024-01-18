@@ -69,16 +69,14 @@ header {
 }
 
 /* menu */
-
 #menu{
-    height: 90vh;
+    height: 75vh;
     width: 100%;
-    overflow: hidden;
+    overflow:hidden;
     background-color: rgb(202, 20, 13);
 }
 .cardContainer{
-    padding-right: 30px;
-    padding-left: 10px;
+    margin-left: 40px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -178,3 +176,5 @@ footer {
     background-color: black;
     text-align: center;
 }
+
+
